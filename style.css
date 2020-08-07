@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #659A99;
+   
+}
+
+.board{
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 200px 500px;
+}
+
+.time{
+    width: 100px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.game{
+    width: 500px;
+    height: 500px;
+    background: #000;
+   
+}
+
+.player{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #E81B17;
+}
+
+.player-weapon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background:#982FD0; 
+}
+
+.enemy{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #433CC3; 
+}
